@@ -1,0 +1,45 @@
+/* WeatherApp.css */
+
+.glass-container {
+  backdrop-filter: blur(15px) !important ; 
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) ;
+  border-radius: 12px !important;
+  padding: 20px !important;
+  color: #fff ; /* Text color for readability */
+  
+}
+.weather-app {
+    transition: background 1s ease-in-out;
+  }
+  
+  .weather-app.stormy {
+    background: url('https://images.unsplash.com/photo-1502082553048-f009c37129b9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxOTcwMjR8MHwxfGFsbHwxMHx8fHx8fHwxNjAwMDAwMDYy&ixlib=rb-1.2.1&q=80&w=1080') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  .weather-app.rainy {
+    background: url('https://images.unsplash.com/photo-1501594907352-04cda38ebc29?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxOTcwMjR8MHwxfGFsbHwxMXx8fHx8fHwxNjAwMDAwMTg3&ixlib=rb-1.2.1&q=80&w=1080') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  .weather-app.snowy {
+    background: url('https://images.unsplash.com/photo-1484663840804-1e2c44e2b635?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxOTcwMjR8MHwxfGFsbHwxOHx8fHx8fHwxNjAwMDAwMjAz&ixlib=rb-1.2.1&q=80&w=1080') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  .weather-app.foggy {
+    background: url('https://images.unsplash.com/photo-1516214104709-21179b52d7ef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxOTcwMjR8MHwxfGFsbHwzOHx8fHx8fHwxNjAwMDAwMjIy&ixlib=rb-1.2.1&q=80&w=1080') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  .weather-app.clear {
+    background: url('https://images.unsplash.com/photo-1473773508845-b10d0237c62a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxOTcwMjR8MHwxfGFsbHw3OXx8fHx8fHwxNjAwMDAwMjQy&ixlib=rb-1.2.1&q=80&w=1080') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  .weather-app.cloudy {
+    background: url('https://images.unsplash.com/photo-1505075106905-ecf7c9001425?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxOTcwMjR8MHwxfGFsbHw4OXx8fHx8fHwxNjAwMDAwMjYy&ixlib=rb-1.2.1&q=80&w=1080') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
